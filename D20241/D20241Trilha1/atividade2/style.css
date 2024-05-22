@@ -1,0 +1,32 @@
+
+div{
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: -2px;
+}
+
+.vml{
+    background-color: red;
+}
+.azl{
+    background-color: blue;
+}
+.vrd{
+    background-color: green;
+}
+.aml{
+    background-color: yellow;
+}
+.hov:hover{
+    background-color: black;
+}
+#b{
+    border: 2px black solid;
+
+}
+
+
+    

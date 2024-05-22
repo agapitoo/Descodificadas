@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div>
+    <ul >
+        <li class="menu">
+            <a href="index.html">Home</a>
+        </li>
+    </ul>
+   </div>
+
+   <div class="borda" >
+    <h1>Entre em Contato </h1>
+   </div>
+    
+
+
+<div class="borda">
+    <div >
+        <form>
+            <label for="nome">Nome:</label> <br>
+            <input type="text" id="nome" onkeyup='validaNome()'>
+            <div id='txtNome'></div>
+            <br>
+            <label for="email">E-mail:</label> <br>
+            <input type="email" id="email" onkeyup='validaEmail()'>
+            <div id='txtEmail'></div>
+            <br>
+            <label for="assunto">Assunto:</label> <br>
+            <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+            <div id='txtAssunto'></div>
+            <br>
+            <br>
+            <button onclick="enviar()" >Enviar</button>
+         </form>
+    </div>
+    
+    <div >
+        <h2>Endereço:</h2>
+        <p>Centro, 1000</p>
+        <p>Cotia - SP</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1827.9844597714393!2d-46.92812152747892!3d-23.605447583803034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf077ed7f80303%3A0xc89e7f091eec455!2sCentro%2C%20Cotia%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1613283951686!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
+    </div>
+    
+</div>
+
+<hr>
+<hr><hr>
+<br>
+    <div class="borda">
+        <footer>
+            <p> Fernanda Agp &copy </p>
+        </footer>
+    </div>
+ 
+    
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

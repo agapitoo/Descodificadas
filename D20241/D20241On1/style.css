@@ -1,0 +1,13 @@
+.borda{ 
+    border: 1px solid red;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+}
+
+.menu{
+    padding: 15px;
+    font-size: 20px;
+    display: inline;
+}
